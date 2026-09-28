@@ -22,6 +22,6 @@ jobs:
  
       - name: Run Multi-Agent System
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_APIKEY }}
         run: |
           python multi_agent_fraud_graph.py
